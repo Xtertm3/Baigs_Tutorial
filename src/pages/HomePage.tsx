@@ -10,7 +10,7 @@ function HomePage() {
               <img src="/logo.png" alt="Baigs Tutorial" className="hero-logo" />
               <div className="logo-placeholder large">BT</div>
             </div>
-            <p className="tag">Empowering the Future</p>
+            <p className="tag">Empowering the Future since 2018</p>
             <h1>
               Learn Smarter, Score Higher, <span>Grow Faster</span>
             </h1>
@@ -121,12 +121,33 @@ function HomePage() {
         </div>
       </section>
 
+      <section className="section alt animate-in">
+        <div className="container">
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '30px', textAlign: 'center' }}>
+            <article className="glass-card">
+              <p className="tag" style={{ border: 'none', padding: 0, marginBottom: '15px' }}>Our Mission</p>
+              <h3>Empowering Conceptual Clarity</h3>
+              <p className="muted">
+                Our mission is to provide an uncompromising standard of personalized coaching that translates complex academic challenges into intuitive learning experiences. Since 2018, we have been committed to ensuring no student is left behind in the pursuit of logical mastery and academic excellence.
+              </p>
+            </article>
+            <article className="glass-card">
+              <p className="tag" style={{ border: 'none', padding: 0, marginBottom: '15px' }}>Our Vision</p>
+              <h3>Shaping Critical Thinkers</h3>
+              <p className="muted">
+                Our vision is to evolve into a global benchmark for conceptual education, where academic results are a natural byproduct of a student's genuine curiosity. We aim to ignite minds to see beyond the syllabus and develop a profound, lasting passion for Information Science and Mathematics.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
       <section className="section warm animate-in">
         <div className="container split-grid">
           <article className="glass-card">
             <p className="tag">Visionary Leadership</p>
             <h2>Ashwaq Ulla Baig</h2>
-            <p className="lead">Information Science and Engineering, BA in Hindi | Founder & Chief Mentor</p>
+            <p className="lead">Information Science and Engineering, MCA | BA in Hindi | Founder & Chief Mentor</p>
             <p className="muted">
               With 8+ years in tutorial leadership, Ashwaq Ulla Baig has a mission to democratize quality education.
               His "students-first" approach has led to 500+ success stories and a culture of academic curiosity at the tutorial.
