@@ -224,6 +224,25 @@ h1 span {
   background: rgba(212, 175, 55, 0.1);
 }
 
+.qual-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.qual-tag {
+  padding: 5px 12px;
+  background: rgba(51, 136, 255, 0.1);
+  border: 1px solid rgba(51, 136, 255, 0.3);
+  color: #aaccff;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
 .hero-actions {
   display: flex;
   gap: 12px;

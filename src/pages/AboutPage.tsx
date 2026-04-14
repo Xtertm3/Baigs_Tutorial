@@ -6,8 +6,14 @@ function AboutPage() {
           <div>
             <p className="tag">About Us</p>
             <h2>Empowering Minds, Shaping Futures</h2>
-            <p className="lead">
-              Founded by Ashwaq Ulla Baig (Information Science and Engineering, MCA | BA in Hindi), Baigs Tutorial is built on the belief that every student has the potential to excel when given the right tools and guidance.
+            <p className="lead">Founded by Ashwaq Ulla Baig</p>
+            <div className="qual-list">
+              <span className="qual-tag">Information Science & Engineering</span>
+              <span className="qual-tag">MCA</span>
+              <span className="qual-tag">BA in Hindi</span>
+            </div>
+            <p className="muted" style={{ marginTop: '10px' }}>
+              Baigs Tutorial is built on the belief that every student has the potential to excel when given the right tools and guidance.
             </p>
             <p className="muted">
               Since our inception, we have dedicated ourselves to bridging the gap between classroom teaching and deep student understanding. We don't just prepare students for exams; we prepare them for a lifetime of logical thinking and academic curiosity.
@@ -73,6 +79,12 @@ function AboutPage() {
           <div className="glass-card" style={{ maxWidth: '800px', margin: '0 auto' }}>
             <p className="tag">Founder's Message</p>
             <h2>A Word from Ashwaq Ulla Baig</h2>
+            <div className="qual-list" style={{ marginBottom: '20px' }}>
+              <span className="qual-tag" style={{ background: 'rgba(212, 175, 55, 0.1)', borderColor: 'rgba(212, 175, 55, 0.3)', color: 'var(--gold)' }}>Verified Expert</span>
+              <span className="qual-tag">IS&E</span>
+              <span className="qual-tag">MCA</span>
+              <span className="qual-tag">BA Hindi</span>
+            </div>
             <p className="lead">"Education is the most powerful tool which you can use to change the world."</p>
             <p className="muted">
               My journey with Baigs Tutorial started with a single goal: to make learning enjoyable and less stressful. With my background in Information Science and Engineering and my Masters in Computer Application (MCA), complemented by my academic pursuit in BA (Hindi), I bring a unique blend of technical logic and linguistic depth to my teaching. Having served as the Head Coordinator of Events during my college years, I emphasize leadership and organizational clarity in our tutorial's culture. I personally supervise the progress of every student to ensure they are on the right track to success.

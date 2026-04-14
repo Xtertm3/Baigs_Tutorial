@@ -147,7 +147,12 @@ function HomePage() {
           <article className="glass-card">
             <p className="tag">Visionary Leadership</p>
             <h2>Ashwaq Ulla Baig</h2>
-            <p className="lead">Information Science and Engineering, MCA | BA in Hindi | Founder & Chief Mentor</p>
+            <div className="qual-list">
+              <span className="qual-tag">Information Science & Engineering</span>
+              <span className="qual-tag">MCA</span>
+              <span className="qual-tag">BA in Hindi</span>
+            </div>
+            <p className="lead" style={{ fontWeight: 700, marginTop: '5px' }}>Founder & Chief Mentor</p>
             <p className="muted">
               With 8+ years in tutorial leadership, Ashwaq Ulla Baig has a mission to democratize quality education.
               His "students-first" approach has led to 500+ success stories and a culture of academic curiosity at the tutorial.
