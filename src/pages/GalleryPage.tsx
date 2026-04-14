@@ -9,7 +9,7 @@ const galleryItems = [
 
 function GalleryPage() {
   return (
-    <section className="section">
+    <section className="section reveal">
       <div className="container">
         <p className="tag">Gallery</p>
         <h2>Campus Life & Learning Moments</h2>

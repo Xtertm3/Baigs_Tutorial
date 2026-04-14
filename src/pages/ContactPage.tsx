@@ -54,7 +54,7 @@ function ContactPage() {
 
   return (
     <>
-      <section className="section animate-in">
+      <section className="section reveal">
         <div className="container split-grid">
           <div>
             <p className="tag">Contact Us</p>
@@ -134,7 +134,7 @@ function ContactPage() {
         </div>
       </section>
 
-      <section className="section alt animate-in">
+      <section className="section alt reveal">
         <div className="container" style={{ textAlign: 'center' }}>
           <p className="tag">Campus Location</p>
           <h2>Visit Our Tutorial</h2>

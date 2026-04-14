@@ -10,6 +10,10 @@ function HomePage() {
               <img src="/logo.png" alt="Baigs Tutorial" className="hero-logo" />
               <div className="logo-placeholder large">BT</div>
             </div>
+            <div className="pulse-badge">
+              <span className="pulse-dot"></span>
+              Admissions Open 2026
+            </div>
             <p className="tag">Empowering the Future since 2018</p>
             <h1>
               Learn Smarter, Score Higher, <span>Grow Faster</span>
@@ -23,6 +27,13 @@ function HomePage() {
               <div className="stat-item">
                 <span className="stat-value">500+</span>
                 <span className="stat-label">Students</span>
+                <div className="avatar-stack">
+                  <div className="avatar"><img src="https://i.pravatar.cc/150?u=1" alt="Student" /></div>
+                  <div className="avatar"><img src="https://i.pravatar.cc/150?u=2" alt="Student" /></div>
+                  <div className="avatar"><img src="https://i.pravatar.cc/150?u=3" alt="Student" /></div>
+                  <div className="avatar"><img src="https://i.pravatar.cc/150?u=4" alt="Student" /></div>
+                  <span className="avatar-count">+24 this week</span>
+                </div>
               </div>
               <div className="stat-item">
                 <span className="stat-value">100%</span>
@@ -51,7 +62,7 @@ function HomePage() {
         </div>
       </section>
 
-      <section className="section alt animate-in">
+      <section className="section alt reveal">
         <div className="container">
           <div style={{ textAlign: 'center', maxWidth: '700px', margin: '0 auto 40px' }}>
             <p className="tag">Our Pillars</p>
@@ -94,7 +105,7 @@ function HomePage() {
         </div>
       </section>
 
-      <section className="section animate-in">
+      <section className="section reveal">
         <div className="container split-grid">
           <article>
             <p className="tag">The Roadmap</p>
@@ -142,7 +153,7 @@ function HomePage() {
         </div>
       </section>
 
-      <section className="section warm animate-in">
+      <section className="section warm reveal">
         <div className="container split-grid">
           <article className="glass-card">
             <p className="tag">Visionary Leadership</p>
@@ -160,12 +171,20 @@ function HomePage() {
             <Link to="/about" className="btn btn-ghost" style={{ marginTop: '20px', display: 'inline-block' }}>Read Full Bio</Link>
           </article>
 
-          <article className="glass-card">
-            <h3>Student Reviews</h3>
-            <p className="lead" style={{ fontSize: '1.1rem', fontStyle: 'italic' }}>
+          <article className="glass-card" style={{ textAlign: 'left' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '15px', marginBottom: '20px' }}>
+              <div className="avatar" style={{ margin: 0, width: '50px', height: '50px', border: '2px solid var(--accent2)' }}>
+                <img src="https://i.pravatar.cc/150?u=5" alt="Student Sameer" />
+              </div>
+              <div>
+                <h3 style={{ margin: 0, fontSize: '1.2rem' }}>Student Reviews</h3>
+                <div style={{ color: 'var(--gold)', fontSize: '0.8rem' }}>★★★★★ Verified Student</div>
+              </div>
+            </div>
+            <p className="lead" style={{ fontSize: '1.1rem', fontStyle: 'italic', color: 'var(--text)' }}>
               "The conceptual teaching at Baigs Tutorial changed how I look at Mathematics. I went from 60% to 95% in just one year!"
             </p>
-            <p className="muted" style={{ fontWeight: 700 }}>— Sameer Ahmed, CBSE XII</p>
+            <p className="muted" style={{ fontWeight: 700, marginTop: '15px' }}>— Sameer Ahmed, CBSE XII</p>
             <div style={{ borderTop: '1px solid var(--line)', marginTop: '20px', paddingTop: '20px' }}>
               <p className="muted" style={{ fontSize: '0.85rem' }}>
                 Join 500+ happy students who discovered their true potential with us.

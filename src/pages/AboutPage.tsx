@@ -1,7 +1,7 @@
 function AboutPage() {
   return (
     <>
-      <section className="section animate-in">
+      <section className="section reveal">
         <div className="container split-grid">
           <div>
             <p className="tag">About Us</p>
@@ -26,7 +26,7 @@ function AboutPage() {
         </div>
       </section>
 
-      <section className="section alt animate-in">
+      <section className="section alt reveal">
         <div className="container" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '30px' }}>
           <article className="glass-card">
             <div className="pillar-icon">🚀</div>
@@ -74,7 +74,7 @@ function AboutPage() {
         </div>
       </section>
 
-      <section className="section warm animate-in">
+      <section className="section warm reveal">
         <div className="container">
           <div className="glass-card" style={{ maxWidth: '800px', margin: '0 auto' }}>
             <p className="tag">Founder's Message</p>

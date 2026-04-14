@@ -33,7 +33,7 @@ const courses = [
 
 function CoursesPage() {
   return (
-    <section className="section">
+    <section className="section reveal">
       <div className="container">
         <p className="tag">Level Up Your Knowledge</p>
         <h2>Redefining Academic Success</h2>
