@@ -60,7 +60,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🤝 Contact
 
-**Founder & Lead Mentor**: Ashwaq Ulla Baig  
+**Founder & Lead Mentor**: Ashwaq Ulla Baig (ISE, BA Hindi)  
 **Email**: [ashwaqullabaig4@gmail.com](mailto:ashwaqullabaig4@gmail.com)  
 **Instagram**: [@baigs_tutorial](https://www.instagram.com/baigs_tutorial/)  
 **WhatsApp**: [+91 91486 41081](https://wa.me/919148641081)

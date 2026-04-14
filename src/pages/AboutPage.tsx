@@ -7,7 +7,7 @@ function AboutPage() {
             <p className="tag">About Us</p>
             <h2>Empowering Minds, Shaping Futures</h2>
             <p className="lead">
-              Founded by Ashwaq Ulla Baig (BE CSE, MCA), Baigs Tutorial is built on the belief that every student has the potential to excel when given the right tools and guidance.
+              Founded by Ashwaq Ulla Baig (Information Science and Engineering, BA in Hindi), Baigs Tutorial is built on the belief that every student has the potential to excel when given the right tools and guidance.
             </p>
             <p className="muted">
               Since our inception, we have dedicated ourselves to bridging the gap between classroom teaching and deep student understanding. We don't just prepare students for exams; we prepare them for a lifetime of logical thinking and academic curiosity.
@@ -75,7 +75,7 @@ function AboutPage() {
             <h2>A Word from Ashwaq Ulla Baig</h2>
             <p className="lead">"Education is the most powerful tool which you can use to change the world."</p>
             <p className="muted">
-              My journey with Baigs Tutorial started with a single goal: to make learning enjoyable and less stressful. With my background in Computer Science and years of experience, I’ve developed a methodology that focuses on making complex subjects intuitive. I personally supervise the progress of every student to ensure they are on the right track to success.
+              My journey with Baigs Tutorial started with a single goal: to make learning enjoyable and less stressful. With my background in Information Science and Engineering and my academic pursuit in BA (Hindi), I bring a blend of technical logic and linguistic depth to my teaching. Having served as the Head Coordinator of Events during my college years, I emphasize leadership and organizational clarity in our tutorial's culture. I personally supervise the progress of every student to ensure they are on the right track to success.
             </p>
           </div>
         </div>
