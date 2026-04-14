@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Baigs Tutorial | Learn, Grow, Excel</title>
+  <meta
+    name="description"
+    content="Baigs Tutorial - inspiring students through quality teaching, practical guidance, and result-focused courses."
+  />
+
+  <!-- PLACE YOUR TUTORIAL ICON HERE:
+       Replace this file with your own logo/icon:
+       assets/tutorial-icon.svg -->
+  <link rel="icon" type="image/svg+xml" href="assets/tutorial-icon.svg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+  <div class="bg-orb orb-3"></div>
+
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a href="#home" class="brand">
+        <img src="assets/tutorial-icon.svg" alt="Baigs Tutorial Icon" class="brand-icon" />
+        <span>Baigs Tutorial</span>
+      </a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#courses">Courses</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-text reveal">
+          <p class="tag">Welcome to Baigs Tutorial</p>
+          <h1>Build Bright Futures with <span>Expert Learning</span></h1>
+          <p>
+            A modern tutorial space where students gain confidence, strong concepts, and top performance through
+            practical teaching.
+          </p>
+          <div class="hero-actions">
+            <a href="#courses" class="btn btn-primary">Explore Courses</a>
+            <a href="#contact" class="btn btn-ghost">Contact Us</a>
+          </div>
+        </div>
+
+        <div class="hero-card reveal delay-1">
+          <h3>Why Students Choose Us</h3>
+          <ul>
+            <li>✅ Concept-first teaching</li>
+            <li>✅ Regular tests & performance analysis</li>
+            <li>✅ Doubt-solving support</li>
+            <li>✅ Personalized mentorship</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="container split">
+        <div class="section-head reveal">
+          <p class="tag">About</p>
+          <h2>Empowering Every Learner</h2>
+          <p>
+            Baigs Tutorial focuses on creating strong academic foundations with a balance of discipline, motivation,
+            and smart strategy.
+          </p>
+          <p>
+            We help students not only score better but also understand deeply and prepare for long-term success.
+          </p>
+        </div>
+
+        <div class="about-image-card reveal delay-1">
+          <!-- ABOUT IMAGE PLACEHOLDER:
+               Replace the src below with your own tutorial/classroom image.
+               Suggested path: assets/about-image.jpg -->
+          <img
+            src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=1200&q=80"
+            alt="Students learning in classroom"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery section" id="gallery">
+      <div class="container">
+        <div class="section-head center reveal">
+          <p class="tag">Gallery</p>
+          <h2>Moments of Growth & Achievement</h2>
+        </div>
+
+        <div class="gallery-grid">
+          <!-- GALLERY IMAGE PLACEHOLDERS:
+               Replace each image src with your own photos.
+               Suggested paths:
+               assets/gallery-1.jpg
+               assets/gallery-2.jpg
+               assets/gallery-3.jpg
+               assets/gallery-4.jpg
+               assets/gallery-5.jpg
+               assets/gallery-6.jpg -->
+          <figure class="gallery-item reveal">
+            <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=900&q=80" alt="Classroom session" />
+            <figcaption>Interactive Sessions</figcaption>
+          </figure>
+          <figure class="gallery-item reveal delay-1">
+            <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=900&q=80" alt="Mentorship" />
+            <figcaption>Mentorship</figcaption>
+          </figure>
+          <figure class="gallery-item reveal delay-2">
+            <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=900&q=80" alt="Study plans" />
+            <figcaption>Smart Study Plans</figcaption>
+          </figure>
+          <figure class="gallery-item reveal">
+            <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=900&q=80" alt="Group learning" />
+            <figcaption>Group Learning</figcaption>
+          </figure>
+          <figure class="gallery-item reveal delay-1">
+            <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=900&q=80" alt="Student success" />
+            <figcaption>Student Success</figcaption>
+          </figure>
+          <figure class="gallery-item reveal delay-2">
+            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80" alt="Team discussion" />
+            <figcaption>Collaborative Learning</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="courses section" id="courses">
+      <div class="container">
+        <div class="section-head center reveal">
+          <p class="tag">Courses</p>
+          <h2>Programs We Offer</h2>
+        </div>
+
+        <div class="courses-grid">
+          <article class="course-card reveal">
+            <h3>Foundation Batch</h3>
+            <p>Strong basics for school students with concept clarity and practice modules.</p>
+          </article>
+          <article class="course-card reveal delay-1">
+            <h3>Board Exam Mastery</h3>
+            <p>Topic-wise preparation, revision strategy, and mock papers for top scores.</p>
+          </article>
+          <article class="course-card reveal delay-2">
+            <h3>Competitive Prep</h3>
+            <p>Advanced problem-solving and exam-focused mentoring for confidence and speed.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="container split">
+        <div class="section-head reveal">
+          <p class="tag">Contact</p>
+          <h2>Let’s Connect</h2>
+          <p>
+            Have a question about admissions, fees, or batches? Send us a message and we’ll get back to you quickly.
+          </p>
+          <p class="note">
+            Form sends to: <strong>ankittiwari3334@gmail.com</strong>
+          </p>
+        </div>
+
+        <form class="contact-form reveal delay-1" id="contactForm">
+          <input type="hidden" name="_subject" value="New Enquiry - Baigs Tutorial Website" />
+          <input type="hidden" name="_captcha" value="false" />
+
+          <label>
+            Full Name
+            <input type="text" name="name" placeholder="Enter your name" required />
+          </label>
+
+          <label>
+            Email Address
+            <input type="email" name="email" placeholder="Enter your email" required />
+          </label>
+
+          <label>
+            Phone Number
+            <input type="tel" name="phone" placeholder="Enter your phone number" required />
+          </label>
+
+          <label>
+            Message
+            <textarea name="message" rows="5" placeholder="Write your message" required></textarea>
+          </label>
+
+          <button type="submit" class="btn btn-primary full" id="submitBtn">Send Message</button>
+          <p id="formStatus" class="form-status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© <span id="year"></span> Baigs Tutorial. All rights reserved.</p>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
