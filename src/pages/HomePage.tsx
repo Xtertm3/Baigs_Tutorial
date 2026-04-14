@@ -10,11 +10,13 @@ function HomePage() {
               <img src="/logo.png" alt="Baigs Tutorial" className="hero-logo" />
               <div className="logo-placeholder large">BT</div>
             </div>
-            <div className="pulse-badge">
-              <span className="pulse-dot"></span>
-              Admissions Open 2026
+            <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', marginBottom: '20px' }}>
+              <div className="pulse-badge" style={{ marginBottom: 0 }}>
+                <span className="pulse-dot"></span>
+                Admissions Open 2026
+              </div>
+              <p className="tag">Empowering the Future since 2018</p>
             </div>
-            <p className="tag">Empowering the Future since 2018</p>
             <h1>
               Learn Smarter, Score Higher, <span>Grow Faster</span>
             </h1>
