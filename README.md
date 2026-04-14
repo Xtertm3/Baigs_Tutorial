@@ -1,50 +1,66 @@
-# Baigs Tutorial - React + Vite Website
+# Baigs Tutorial - Professional Academic Website
 
-A premium multi-page website built using React, TypeScript, and Vite with page routes:
+A premium, high-contrast dark mode website designed for **Baigs Tutorial**, a premier coaching destination for CBSE, ICSE, and Engineering subjects. Built with modern web technologies for a smooth, app-like experience.
 
-- Home (`/`)
-- About (`/about`)
-- Gallery (`/gallery`)
-- Courses (`/courses`)
-- Contact (`/contact`)
+## ✨ Features
 
-## Run locally
+- 🌑 **Premium Dark Contrast UI**: A sleek, high-contrast design optimized for readability and a premium academic feel.
+- 📱 **Fully Responsive**: Seamless experience across mobile, tablet, and desktop devices.
+- 📚 **Comprehensive Course Catalog**: Detailed listings for Class 9-10, Class 11-12, and specialized Engineering/JEE modules.
+- 🛣️ **Learning Roadmap**: Interactive methodology section showcasing the Baigs pedagogical approach.
+- 🗺️ **Integrated Navigation**: One-click Google Maps navigation to the campus.
+- ✉️ **Live Contact Form**: Fully functional enquiry system with automated email routing.
+- ✨ **Smooth Animations**: Premium fade-in and hover interactions for a state-of-the-art feel.
 
-```bash
-npm install
-npm run dev
-```
+## 🛠 Tech Stack
 
-## Build for production
+- **Framework**: [React 19](https://react.dev/)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: Vanilla CSS (High-Performance & Custom-Designed)
+- **Email Service**: [FormSubmit](https://formsubmit.co/)
 
-```bash
-npm run build
-npm run preview
-```
+## 🚀 Getting Started
 
-## Where to add your images
+### Prerequisites
 
-- Tutorial icon/logo:
-  - Replace: `public/tutorial-icon.svg`
-- About page image:
-  - Update image source in: `src/pages/AboutPage.tsx`
-  - Suggested file: `public/images/about.jpg`
-- Gallery images:
-  - Update `galleryItems` array in: `src/pages/GalleryPage.tsx`
-  - Suggested files: `public/images/gallery-1.jpg` ... `public/images/gallery-6.jpg`
+- [Node.js](https://nodejs.org/) (v18 or higher)
+- npm or yarn
 
-## Contact form email
+### Installation
 
-The Contact page sends submissions to:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Xtertm3/Baigs_Tutorial.git
+   cd Baigs_Tutorial
+   ```
 
-`ankittiwari3334@gmail.com`
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-using FormSubmit endpoint in `src/pages/ContactPage.tsx`.
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-### First-time FormSubmit activation
+## 📦 Deployment (Vercel)
 
-1. Submit the form once from your running site.
-2. Open activation email sent to `ankittiwari3334@gmail.com`.
-3. Click activation link.
+This project is optimized for deployment on [Vercel](https://vercel.com). 
 
-After this, form submissions will arrive in your inbox.
+1. Push your changes to your GitHub repository.
+2. Connect your repository to Vercel.
+3. Vercel will automatically detect the **Vite preset**.
+4. The site will be live at a custom `.vercel.app` URL.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🤝 Contact
+
+**Founder & Lead Mentor**: Ashwaq Ulla Baig  
+**Email**: [ashwaqullabaig4@gmail.com](mailto:ashwaqullabaig4@gmail.com)  
+**Instagram**: [@baigs_tutorial](https://www.instagram.com/baigs_tutorial/)  
+**WhatsApp**: [+91 91486 41081](https://wa.me/919148641081)
